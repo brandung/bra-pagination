@@ -1,7 +1,7 @@
 bra_pagination
 ==============
 
-Pagination and Filter Plugin
+A complex jQuery pagination and filter plugin
 
 
 # Available methods
