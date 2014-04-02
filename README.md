@@ -3,8 +3,40 @@ bra_pagination
 
 A complex jQuery pagination and filter plugin
 
+[DEMO](http://kunden.agentur-brandung.de/kunden_projekte/bra-download-builder/demo/bra_pagination/)
+
+## How to use
+
+### Step 1 - Add markup
+The bra_pagination markup is simple. First, start with a single list container, ```<ul class="sort-list">``` in this example. Then, create ```<li class="items">``` elements as much as you need. It is important to use this class because the pagination targets that class specifically. If you want another class name you must specify it in the options. Put your images and anything else you desire into each <li> and you are ready to rock.
+```html
+<ul class="sort-list">
+  <li class="items"></li>
+  <li class="items"></li>
+  <li class="items"></li>
+</ul>
+```
+
+### Step 2 - Init the plugin
+
+```javascript
+$(function(){
+  $('.sort-list').bra_pagination();
+});
+```
+
+### How to use the filter module
+To filter items, you must add ```data-``` attributes to each. The plugin crawl through all items and append filter attributes automatically to the DOM. Available filter types are ```pattern```, ```tab``` and ```checkbox```
+```html
+<ul class="sort-list">
+  <li class="items" data-filter-pattern-color="blue" data-filter-tab-qm="1" data-filter-tab-offer="1" data-filter-checkbox-size="XL"></li>
+  <li class="items" data-filter-pattern-color="red"></li>
+  <li class="items" data-filter-checkbox-size="L"></li>
+</ul>
+```
 
 ## Available options
+Listed below are all of the options available to customize the pagination and filter plugin to suite your needs, along with their default values.
 
 OPTION | TYPE | DEFAULT | DESCRIPTION
 --- | --- | --- | ---
