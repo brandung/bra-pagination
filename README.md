@@ -1,4 +1,4 @@
-bra_pagination
+bra-pagination
 ==============
 
 A complex jQuery pagination and filter plugin
@@ -8,7 +8,7 @@ A complex jQuery pagination and filter plugin
 ## How to use
 
 ### Step 1 - Add markup
-The bra_pagination markup is simple. First, start with a single list container, ```<ul class="sort-list">``` in this example. Then, create ```<li class="items">``` elements as much as you need. It is important to use this class because the pagination targets that class specifically. If you want another class name you must specify it in the options. Put your images and anything else you desire into each <li> and you are ready to rock.
+The bra-pagination markup is simple. First, start with a single list container, ```<ul class="sort-list">``` in this example. Then, create ```<li class="items">``` elements as much as you need. It is important to use this class because the pagination targets that class specifically. If you want another class name you must specify it in the options. Put your images and anything else you desire into each <li> and you are ready to rock.
 ```html
 <ul class="sort-list">
   <li class="items"></li>
