@@ -26,7 +26,7 @@ $(function(){
 ```
 
 ### How to use the filter module
-To filter items, you must add ```data-``` attributes to each. The plugin crawl through all items and append filter attributes automatically to the DOM. Available filter types are ```pattern```, ```tab``` and ```checkbox```
+To filter items, you must add ```data-``` attributes to each of them. The plugin crawl through all items and append filter values automatically, sort by type, to the DOM. Available filter types are ```filter-pattern```, ```filter-tab``` and ```filter-checkbox``` follow by the filter attribute. **e.g.** ```data-filter-pattern-color="blue"``` This item can be filtered by color blue.
 ```html
 <ul class="sort-list">
   <li class="items" data-filter-pattern-color="blue" data-filter-tab-qm="1" data-filter-tab-offer="1" data-filter-checkbox-size="XL"></li>
