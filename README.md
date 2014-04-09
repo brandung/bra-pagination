@@ -3,7 +3,7 @@ bra-pagination
 
 A complex jQuery pagination and filter plugin
 
-[DEMO](http://kunden.agentur-brandung.de/kunden_projekte/bra-download-builder/demo/bra_pagination/)
+[DEMO](http://jsfiddle.net/MCVkr/2/)
 
 ## How to use
 
