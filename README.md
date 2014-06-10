@@ -110,6 +110,12 @@ Returns the current page number.
 $([selector]).bra_pagination('getCurrentPage');
 ```
 ==============
+### setPage
+Set page to start from.
+```javascript
+$([selector]).bra_pagination('setPage', 6);
+```
+==============
 ### filterReset
 Restore all filter settings
 ```javascript
