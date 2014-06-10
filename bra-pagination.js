@@ -131,6 +131,16 @@
 		},
 
 		/**
+		 * set page
+		 * @returns {*}
+		 */
+		setPage: function (page) {
+			var $self = this;
+			methods._selectPage.call($self, page - 1);
+			return $self;
+		},
+
+		/**
 		 * Selects the previous page
 		 * @returns {methods}
 		 */
