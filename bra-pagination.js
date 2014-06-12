@@ -1,5 +1,5 @@
 /**
- * bra_pagination.js v1.3
+ * bra_pagination.js v1.4
  * A complex jQuery pagination and filter plugin.
  *
  * @author: Simon Kemmerling
