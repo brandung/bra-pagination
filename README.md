@@ -111,7 +111,7 @@ $([selector]).bra_pagination('getCurrentPage');
 ```
 ==============
 ### setPage
-Set page to start from.
+Set page number to start from.
 ```javascript
 $([selector]).bra_pagination('setPage', 6);
 ```
