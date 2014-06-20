@@ -79,6 +79,14 @@ Selects the next page
 ```javascript
 $([selector]).bra_pagination('prevPage');
 ```
+
+==============
+### addItem
+Adding new Item to pagination object. (useful after you have add an item to pagination list).
+```javascript
+$([selector]).bra_pagination('addItem');
+```
+
 ==============
 ### updateItemsOnPage
 Allows to dynamically change how many items are rendered on each page
